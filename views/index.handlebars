@@ -1,0 +1,17 @@
+<h1>What did the shark eat?</h1>
+
+<h3>See what is in the shark's stomach</h3>
+
+<ul>
+	{{#each food}}
+		<li>
+			<p>Item: {{this.item}} </p>
+		</li>
+	{{/each}}
+</ul>
+
+<form action="/" method="POST">
+	<textarea type="text" name="event"></textarea>
+
+	<button type="submit">Submit</button>
+</form>						
