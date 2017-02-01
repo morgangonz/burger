@@ -1,3 +1,29 @@
-li {
-	background-color:green;
+body {
+	background-image: url(https://www.samaa.tv/wp-content/uploads/2016/10/Great-White-Shark-attack.jpg);
+}
+h1, form {
+	text-align:center;
+}
+
+p {
+	color:white;
+	text-align:center;
+	
+}
+#eat {
+	background-color:black;
+	opacity: 0.6;
+	float:left;
+	margin-left:20%;
+	padding:30px;
+	width:250px;
+}
+#eaten {
+	background-color:black;
+	opacity: 0.6;
+	float:right;
+	margin-right:20%;
+	padding:30px;
+	width:250px;
+
 }
